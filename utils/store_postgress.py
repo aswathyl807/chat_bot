@@ -48,8 +48,3 @@ class PostgresStore:
         self.conn.close()
 
 
-post_store = PostgresStore()
-
-post_store.close_connection()
-
-
