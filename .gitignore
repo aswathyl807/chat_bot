@@ -1,0 +1,89 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.env.*  # e.g., .env.dev, .env.prod
+
+uploads/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Python distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Uvicorn / Gunicorn logs
+gunicorn.log
+gunicorn.pid
+
+# Coverage and testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+.cache
+pytest_cache/
+
+# MyPy / Pyright / Pyre
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Database and migrations
+*.db
+*.sqlite3
+migrations/
+chroma_storage/
+notebook/
+uploaded_pdfs/
+
+# Docker files
+*.pid
+*.tar
+*.gz
+
+# Jupyter notebooks (if any)
+.ipynb_checkpoints/
+
+# Static and media (optional)
+staticfiles/
+media/
+
+# Qdrant/Chroma/Vector DB storage (optional, if used)
+chroma_storage/
+qdrant_storage/
+
+# Local tools/debug
+debug.log
+local_settings.py
