@@ -61,12 +61,11 @@ class RagPipeline:
 
 
 
+
+
 # data_path=r"C:/Users/aswat/Downloads/hulk.pdf"
-
 # chroma_path="newchroma2"
-
 # rag_run=Ragpipeline(data_path,chroma_path)
-
 # data,file_name=rag_run.load_documents()
 # total_pages=rag_run.get_total_pages(data)
 
