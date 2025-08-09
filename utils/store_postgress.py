@@ -46,6 +46,3 @@ class PostgresStore:
     def close_connection(self):
         self.cursor.close()
         self.conn.close()
-
-a=PostgresStore()
-a.close_connection()
