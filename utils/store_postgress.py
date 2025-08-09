@@ -47,4 +47,5 @@ class PostgresStore:
         self.cursor.close()
         self.conn.close()
 
-
+a=PostgresStore()
+a.close_connection()
